@@ -3,7 +3,7 @@ variable "route_table_vpc" {
 }
 
 variable "igw_vpc_id" {
-  description = "vpc id"
+  description = "Internet GW ID"
 }
 
 variable "name" {
