@@ -1,4 +1,8 @@
-variable "vpc_id" {
+variable "route_table_vpc" {
+  description = "vpc id"
+}
+
+variable "igw_vpc_id" {
   description = "vpc id"
 }
 
